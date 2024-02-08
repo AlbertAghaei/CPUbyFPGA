@@ -1,0 +1,52 @@
+NET "clk" LOC = "P55";#clock
+
+NET "sw<0>" LOC = "P97";
+NET "sw<1>" LOC = "P98";
+NET "sw<2>" LOC = "P99";
+NET "sw<3>" LOC = "P100";
+NET "sw<4>" LOC = "P101";
+NET "sw<5>" LOC = "P102";
+NET "sw<6>" LOC = "P104"; 
+NET "sw<7>" LOC = "P105";
+
+
+NET "SEGoff" LOC = "P95"; #B6
+NET "reset" LOC = "P94"; #B5 //reset
+NET "Done2" LOC = "P93"; #B4  //Secondinpput
+NET "Done" LOC = "P92"; #B3 //First input
+NET "instruct" LOC = "P88"; #B2 //operation
+NET "LCD2SEG" LOC = "P87"; #B1 // change lcd display to 7 segment
+
+NET "led<0>" LOC = "P78";
+NET "led<1>" LOC = "P79";
+NET "led<2>" LOC = "P80";
+NET "led<3>" LOC = "P81";
+NET "led<4>" LOC = "P82";
+NET "led<5>" LOC = "P83";
+
+
+NET "a"  LOC = "P118";
+NET "b"  LOC = "P116";
+NET "c"  LOC = "P117";
+NET "d"  LOC = "P121";
+NET "e"  LOC = "P112";
+NET "f"  LOC = "P114";
+NET "g"  LOC = "P111";
+NET "dp"  LOC = "P123";
+NET "seg3"  LOC = "P124";
+NET "seg2"  LOC = "P115";
+NET "seg1" LOC = "P119";
+NET "seg0" LOC = "P120";
+
+NET "INTENSITY" LOC = "P143";
+NET "RW" LOC = "P142";
+NET "RS" LOC = "P141";
+NET "E" LOC = "P140";
+NET "Data<7>" LOC = "P138";
+NET "Data<6>" LOC = "P137";
+NET "Data<5>" LOC = "P134";
+NET "Data<4>" LOC = "P133";
+NET "Data<3>" LOC = "P132";
+NET "Data<2>" LOC = "P131";
+NET "Data<1>" LOC = "P127";
+NET "Data<0>" LOC = "P126";
